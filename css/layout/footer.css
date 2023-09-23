@@ -285,22 +285,17 @@
     .container-footer {
         flex-wrap: nowrap;
         flex-direction: row;
+        align-items: baseline;
         max-width: 1158px;
-        margin-left: 0;
         gap: 0;
 
     } 
         
     .container-bottom {
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .container-svg {
-        margin-right: 80px;
+        margin-right: 120px;
     }
     
     .footer-social-form {
-        padding-top: 0;
+        margin-left: 80px;
     }
 }
