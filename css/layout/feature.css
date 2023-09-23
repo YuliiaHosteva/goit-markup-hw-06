@@ -4,11 +4,14 @@
         display: none;
     }
 }
+
+.section-feature {
+    padding: 96px 0;
+}
 .text-list {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding: 96px 0;
 }
 
 .title { 

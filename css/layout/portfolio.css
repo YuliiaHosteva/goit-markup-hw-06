@@ -18,11 +18,9 @@
         flex-direction: column;
         justify-content: center;
         gap: 48px;
-        padding-top: 72px;
     }
 
     .portfolio-card {
-        border: 1px solid #F4F4FD;
         background: #FFF;
         box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
         0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
@@ -68,7 +66,6 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 72px 24px;
-        padding-top: 72px;
     }
 
     .portfolio-card {
@@ -81,8 +78,9 @@
         border-top: none;
         }
        
-    .title-card { 
-        text-align: inherit;
+    .title-card {
+        text-align: inherit; 
+        margin-bottom: 8px;
     }
 
     .text-card {

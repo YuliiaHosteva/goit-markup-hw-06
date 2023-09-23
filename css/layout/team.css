@@ -13,13 +13,13 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .subject-list {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding-top: 72px;
 }
 
 .team-list {
@@ -96,6 +96,7 @@
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+        margin-bottom: 72px;
     }
     
     .subject-list {
@@ -104,7 +105,6 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 64px 24px;
-        padding-top: 72px;
         margin: 0 auto;
     }
      

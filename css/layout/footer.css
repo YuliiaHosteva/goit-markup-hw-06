@@ -5,10 +5,7 @@
         background-color: #2e2f42;
         padding: 96px 0;
     }
-
-    .container-bottom {
-        padding-bottom: 72px;  
-    } 
+ 
 
     .link-logo-footer {
         color: #4D5AE5;
@@ -43,6 +40,10 @@
         letter-spacing: 0.02em;
     }
 
+    .container-svg {
+        margin-top: 72px;
+    }
+
     .paragraph-footer {
         color: #ffffff;
         font-size: 16px;
@@ -69,7 +70,7 @@
     }
 
     .footer-social-form {
-        padding-top: 72px;  
+        margin-top: 72px;  
     }
 
     .social-text {
@@ -146,16 +147,13 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        max-width: 584px;
+        gap: 72px 24px;
     } 
-
-    .container-bottom {
-        margin-left: 108px;
-    }
 
     .container-svg {
         display: flex;
         flex-direction: column;
-        margin-left: 24px;
     }
 
     .link-logo-footer {
@@ -214,10 +212,6 @@
         background-color: #31d0aa;
     }
 
-    .footer-social-form {
-        padding-top: 72px;
-        margin-left: 108px;  
-    }
 
     .social-text {
         color: #FFF;
@@ -291,16 +285,19 @@
     .container-footer {
         flex-wrap: nowrap;
         flex-direction: row;
-        align-items: baseline;
+        max-width: 1158px;
+        margin-left: 0;
+        gap: 0;
+
     } 
         
     .container-bottom {
-        margin-right: 120px;
+        margin-right: auto;
         margin-left: auto;
     }
 
     .container-svg {
-        margin-left: 0;
+        margin-right: 80px;
     }
     
     .footer-social-form {
